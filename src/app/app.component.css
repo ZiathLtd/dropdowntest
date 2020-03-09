@@ -1,0 +1,48 @@
+.bd-navbar {
+  min-height: 4rem;
+  background: linear-gradient(135deg,#0273d4,#0e5da1);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.05),inset 0 -1px 0 rgba(0,0,0,.1);
+  width: 100%;
+}
+
+.ziath-logo {
+  margin: 0.5em;
+}
+
+.ribbon-button {
+  border: 0.3em darkblue solid;
+  margin: 0.5em;
+  background-color: rgb(120, 181, 238);
+  width: 10em;
+}
+
+.caption {
+  display: block;
+  font-size: 1.2em;
+  word-wrap: break-word;
+}
+
+.fa-ribbon {
+  font-size: 1.5em;
+}
+
+.caption-ribbon-item {
+  display: inherit;
+  font-size: 8px;
+  word-wrap: break-word;
+  background-color: lightblue;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.nav-item .dropdown-menu{
+  background-color: #393636;
+
+}
+.nav-item .dropdown-menu button{
+  color:white;
+  font-family:  Helvetica, Arial, sans-serif;
+}
+.nav-item .dropdown-menu button:hover {
+  color:grey;
+}

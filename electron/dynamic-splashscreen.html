@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head></head>
+    <body>
+        <center>
+            <img src="../dp5logo_splash.png" width="500" height="500"></img>
+        </center>
+        <div style="background: rgba(255,255,255,0.5);">
+          <center>
+              <h1><span id="status"></span></h1>
+          </center>
+        </div>
+    </body>
+    <script>
+        // Listen for data from browser process and update splashscreen
+        var ipcRenderer = require("electron").ipcRenderer;
+        ipcRenderer.on("update", function(event, status) {
+            document.getElementById("status").innerText = status;
+        })
+    </script>
+</html>
